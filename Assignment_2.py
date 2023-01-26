@@ -10,7 +10,8 @@ with open('file.txt', 'w+') as f:
     f.write("test 3\n")             
     f.seek(0)                       
     lines = f.read()                
-    print(lines)                    
+    print(lines) 
+# a+
 with open('file.txt', 'a+') as f:
     f.seek(0)                       
     lines = f.readlines()           
