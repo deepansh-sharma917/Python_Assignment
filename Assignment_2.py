@@ -4,7 +4,7 @@ with open('file.txt', 'r+') as f:
     f.write("new line \n")
     
 # w+    
-with open('file.txt', 'w+') as f:   
+with open('file_new.txt', 'w+') as f:   
     f.write("test 1\n")
     f.write("test 2\n")
     f.write("test 3\n")             
